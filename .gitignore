@@ -1,0 +1,43 @@
+# Ambientes Virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache e executáveis compilados
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Banco de dados local (geralmente ignorado no log versionado, use backups ou migrações)
+db.sqlite3
+db.sqlite3-journal
+
+# Arquivos de ambiente contendo segredos (IMPORTANTÍSSIMO)
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# IDE e ferramentas
+.vscode/
+.idea/
+.DS_Store
+
+# Static assets coletados pelo Django
+staticfiles/
+static_root/
+
+# Mídias carregadas por usuários
+media/
+
+# Node_modules (caso adicione frontend no futuro)
+node_modules/
+
+# pytest ou coverage (se for rodar testes locais futuramente)
+.pytest_cache/
+.coverage
+htmlcov/
