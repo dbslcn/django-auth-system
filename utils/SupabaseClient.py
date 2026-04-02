@@ -1,5 +1,5 @@
 """
-curl -X POST 'https://dyrklpdnffcescvkhdxg.supabase.co/rest/v1/profiles' \
+curl -X POST 'https://url_supabase.supabase.co/rest/v1/profiles' \
 -H "apikey: SUPABASE_CLIENT_ANON_KEY" \
 -H "Authorization: Bearer SUPABASE_CLIENT_ANON_KEY" \
 -H "Content-Type: application/json" \
